@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="prikaz"
+        android:title="Prikaz Fragmenta">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_details"
+            android:title="Prikaz Tehnickih Detalja"
+            android:summary="Prikaz Tehnickih Detalja"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_actors_details"
+            android:title="Prikaz Ucesnika"
+            android:summary="Prikaz Ucesnika"/>
+    </PreferenceCategory>
+</PreferenceScreen>
